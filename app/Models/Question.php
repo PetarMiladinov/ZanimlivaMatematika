@@ -9,7 +9,7 @@ class Question extends Model
 {
     use HasFactory;
 
-    protected $fiilable = ['title', 'grade', 'question', 'answers', 'correct_answer'];
+    protected $fiilable = ['title', 'grade', 'question', 'answers', 'correct_answer', 'solve_count'];
 
     protected $casts = [
         'answers' => 'array',
